@@ -1,7 +1,9 @@
 # Angular Competency Test By Fabrice Yao
 
 Please follow the instructions below to run the project:
-* run "npm install"
+* Clone the project "git clone https://github.com/Fabyao/mod-test.git"
+* Run "cd mod-test"
+* Run "npm install"
 * Ensure MongoDB is waiting for connections
 * run "npm start". This should get the application running on port 8080. If port 8080 is in use, please change the port number in "server/config/server.js"
 * The default URL will be http://localhost:8080
