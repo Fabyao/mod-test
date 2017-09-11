@@ -1,0 +1,44 @@
+{
+  "name": "mod-test",
+  "version": "1.0.0",
+  "description": "MOD interview test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon --exec 'mocha ./server/test --recursive -R min'",
+    "angular-tests": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fabyao/mod-test.git"
+  },
+  "keywords": [
+    "Interview",
+    "Test"
+  ],
+  "author": "Fabrice Yao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fabyao/mod-test/issues"
+  },
+  "homepage": "https://github.com/Fabyao/mod-test#readme",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-messages": "^1.6.6",
+    "angular-mocks": "^1.6.6",
+    "angular-route": "^1.6.6",
+    "body-parser": "^1.18.0",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.10"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "mocha": "^3.5.1",
+    "nodemon": "^1.12.0",
+    "supertest": "^3.0.0"
+  }
+}
